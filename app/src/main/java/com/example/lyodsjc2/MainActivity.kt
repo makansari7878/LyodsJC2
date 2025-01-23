@@ -107,7 +107,7 @@ fun myLogin(){
         onValueChange = {inputText = it} )
     Button(onClick = {
        android.widget.Toast.makeText(context, "result is : $inputText", Toast.LENGTH_LONG).show()
-        var myIntent = Intent(context,ListActivity::class.java)
+        var myIntent = Intent(context,NormalActivity::class.java)
         context.startActivity(myIntent)
 
     }) {
